@@ -206,7 +206,7 @@
     }
     
     div.footer-ctrl {
-        padding-top: 250px;
+        padding-top: 200px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -246,16 +246,22 @@
     
     .footer-social-media {
         display: flex;
+        margin-top: -70px;
     }
     
     .main-footer-text p {
         text-align: left;
         font-size: 15px;
+        color: #d2d2d2;
     }
     
     .main-footer-text {
         float: right;
         margin-top: 50px;
+    }
+    
+    .twitter {
+        margin: 0 2%;
     }
     
     @media(max-width:1000px) {
@@ -337,7 +343,7 @@
             color: #808d99;
         }
         .illustration-img img {
-            height: 280px;
+            height: 220px;
         }
         .ready {
             text-align: center;
@@ -362,7 +368,7 @@
         }
         #main-footer .logo-box img {
             filter: brightness(20%) invert(100%) contrast(100%) grayscale(50%);
-            height: 20px;
+            height: 35px;
         }
         .icon {
             height: 20px;
@@ -379,9 +385,11 @@
             align-items: center;
             justify-content: center;
             padding-top: 1rem;
+            margin-top: 0;
         }
         .main-footer-text p {
-            text-align: left;
+            display: block;
+            text-align: center;
             font-size: 12px;
         }
         .footer-about-us {
@@ -389,6 +397,7 @@
         }
         .main-footer-text {
             margin-top: 10px;
+            float: none;
         }
         .location-text,
         .call-text,
