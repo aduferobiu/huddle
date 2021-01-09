@@ -5,7 +5,7 @@
 ## Welcome! 👋
 
 This project was coded by Adufe Robiu
-you can preview at (https://www.frontendmentor.io)
+you can preview at (https://huddle1.netlify.app/)
 
 Thanks for checking out this front-end coding challenge.
 
